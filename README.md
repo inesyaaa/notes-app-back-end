@@ -18,6 +18,8 @@ https://github.com/NutriMatch/NutriMatch-CloudComputing.git
 ## 5. Deploy the container image to Cloud Run
 ```sh
      gcloud builds submit --tag gcr.io/<your_project>/nutrimatch
+```
+```sh
      gcloud run deploy --image gcr.io/<your_project>/nutrimatch --platform managed
 ```
 ## 6. Configure databases using Firebase Authentication, Realtime Database, and Storage
