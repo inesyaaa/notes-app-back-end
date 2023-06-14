@@ -7,13 +7,13 @@
 - ## 2. Setup Google Cloud Platform
   Enable Cloud Run and Cloud Build API
  
-## 3. Set up the required environment variables
+- ## 3. Set up the required environment variables
 ```sh
     python -r requirement.txt
 ```
 
-## 4. Build the container image using the provided Docker file
-- https://cloud.google.com/run/docs/quickstarts/build-and-deploy#containerizing
+- ## 4. Build the container image using the provided Docker file
+-- https://cloud.google.com/run/docs/quickstarts/build-and-deploy#containerizing
 
 ## 5. Deploy the container image to Cloud Run
 ```sh
