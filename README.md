@@ -7,6 +7,7 @@
 - ## 2. Setup Google Cloud Platform
     - Enable Cloud Run and Cloud Build API
  
+ 
 - ## 3. Set up the required environment variables
     ```sh
         python -r requirement.txt
