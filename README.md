@@ -1,7 +1,6 @@
 ﻿# NutriMatch-CloudComputing Documentation
  
- 
- -## 1. Write the Flask server app using Python & Install prequisite
+## -1. Write the Flask server app using Python & Install prequisite
  
  Source Code for Flask Server:
  https://github.com/NutriMatch/NutriMatch-CloudComputing.git
