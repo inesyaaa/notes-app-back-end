@@ -10,7 +10,7 @@
  
 - ## 3. Set up the required environment variables
     ```sh
-      python -r requirement.txt
+      pip install -r requirements.txt
     ```
 - ## 4. Build the container image using the provided Docker file
     - https://cloud.google.com/run/docs/quickstarts/build-and-deploy#containerizing
