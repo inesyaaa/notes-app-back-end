@@ -10,17 +10,17 @@
  
 - ## 3. Set up the required environment variables
     ```sh
-        python -r requirement.txt
+      python -r requirement.txt
     ```
 - ## 4. Build the container image using the provided Docker file
     - https://cloud.google.com/run/docs/quickstarts/build-and-deploy#containerizing
 
 - ## 5. Deploy the container image to Cloud Run
     ```sh
-        gcloud builds submit --tag gcr.io/<your_project>/nutrimatch
+      gcloud builds submit --tag gcr.io/<your_project>/nutrimatch
     ```
     ```sh
-        gcloud run deploy --image gcr.io/<your_project>/nutrimatch --platform managed
+      gcloud run deploy --image gcr.io/<your_project>/nutrimatch --platform managed
     ```
 - ## 6. Configure databases using Firebase Authentication, Realtime Database, and Storage
 
