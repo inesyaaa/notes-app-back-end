@@ -2,7 +2,7 @@
 
 - ## 1. Write the Flask server app using Python & Install prequisite
     - Source Code for Flask Server:
-    https://github.com/NutriMatch/NutriMatch-CloudComputing.git
+        https://github.com/NutriMatch/NutriMatch-CloudComputing.git
  
 - ## 2. Setup Google Cloud Platform
     - Enable Cloud Run and Cloud Build API
