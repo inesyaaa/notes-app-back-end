@@ -7,17 +7,19 @@ https://github.com/NutriMatch/NutriMatch-CloudComputing.git
 ## 2. Setup Google Cloud Platform
 - Enable Cloud Run and Cloud Build API
  
- 
 ## 3. Set up the required environment variables
+```sh
         python -r requirement.txt
-        
+```
+
 ## 4. Build the container image using the provided Docker file
 - https://cloud.google.com/run/docs/quickstarts/build-and-deploy#containerizing
 
 ## 5. Deploy the container image to Cloud Run
-        gcloud builds submit --tag gcr.io/<your_project>/nutrimatch
-        gcloud run deploy --image gcr.io/<your_project>/nutrimatch --platform managed
-        
+```sh
+     gcloud builds submit --tag gcr.io/<your_project>/nutrimatch
+     gcloud run deploy --image gcr.io/<your_project>/nutrimatch --platform managed
+```
 ## 6. Configure databases using Firebase Authentication, Realtime Database, and Storage
 
 ## 7. Connect all services to one domain using API gateway
