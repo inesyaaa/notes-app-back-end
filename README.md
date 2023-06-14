@@ -3,8 +3,8 @@
 - ## 1. Write the Flask server app using Python & Install prequisite
     - Source Code for Flask Server:
     
-    https://github.com/NutriMatch/NutriMatch-CloudComputing.git
- 
+      https://github.com/NutriMatch/NutriMatch-CloudComputing.git
+    
 - ## 2. Setup Google Cloud Platform
     - Enable Cloud Run and Cloud Build API
  
@@ -26,14 +26,13 @@
 - ## 6. Configure databases using Firebase Authentication, Realtime Database, and Storage
 
 - ## 7. Connect all services to one domain using API gateway
-    ### REST API Documentation
     NutriMatch REST-API: App to Database
-    #### How to Use
+    ### How to Use
     - Local Host: Run with python, local IP and Port:5000 
     `http://127.0.0.1:5000/` or `http://localhost:5000/`
     - Online Domain: `https://nutrimatch-api-3yfsigu4tq-et.a.run.app/` 
 
-    #### Endpoint Route
+    ### Endpoint Route
     For API documentation, see the following link:
     
     [NutriMatch-API Documentation](https://documenter.getpostman.com/view/26516803/2s93m7W1de)
