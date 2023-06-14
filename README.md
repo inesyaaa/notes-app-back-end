@@ -9,7 +9,7 @@ https://github.com/NutriMatch/NutriMatch-CloudComputing.git
  
 ## 3. Set up the required environment variables
 ```sh
-        python -r requirement.txt
+    python -r requirement.txt
 ```
 
 ## 4. Build the container image using the provided Docker file
