@@ -1,11 +1,12 @@
 # NutriMatch-CloudComputing Documentation
 
 ## 1. Write the Flask server app using Python & Install prequisite
--  Source Code for Flask Server:
-   https://github.com/NutriMatch/NutriMatch-CloudComputing.git
+- Source Code for Flask Server:
+https://github.com/NutriMatch/NutriMatch-CloudComputing.git
  
-## 2. Setup Google Cloud Platfor
-      - Enable Cloud Run and Cloud Build API
+## 2. Setup Google Cloud Platform
+- Enable Cloud Run and Cloud Build API
+ 
  
 ## 3. Set up the required environment variables
         python -r requirement.txt
